@@ -1,6 +1,6 @@
-org: jabuenavidaunir
-app: todo-list-serverless
 service: serverless-rest-api-with-dynamodb
+app: todo-list-serverless
+org: jabuenavidaunir
 
 frameworkVersion: ">=1.1.0"
 
