@@ -7,7 +7,7 @@ import uuid
 import boto3
 dynamodb = boto3.resource('dynamodb')
 
-
+# Funcion para crear notas
 def create(event, context):
     data = json.loads(event['body'])
     if 'text' not in data:
