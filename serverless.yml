@@ -22,11 +22,11 @@ provider:
     - Effect: Allow
       Action:
         - translate:TranslateText
-      Resource: "arn:aws:cloudformation:us-east-1:171127615216:*"
+      Resource: "*"
     - Effect: Allow
       Action:
         - comprehend:DetectDominantLanguage
-      Resource: "arn:aws:cloudformation:us-east-1:171127615216:*"
+      Resource: "*"
     
 
 functions:
